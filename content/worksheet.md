@@ -20,4 +20,15 @@
 - Sparkfun site states **100 mVpk** probaby assuming 10 times higher input signal i.e. Voice is **80 dB SPL**
 - Input high-pass frequency = $1/2\pi RC = 1/2\pi 5k 4.7uF = 6.77 Hz$
 - Feedback Low-pass filter frequency = $1/2\pi RC = 1/2\pi 300k 27pF = 19.6kHz $
-- 
+- Input common-mode filter = $1/2\pi 10k 1uF = 15.9 Hz$
+
+## ADC input analysis
+
+- Typical input voltage range for Arduino nano are:
+  - Vcc (3.3V/5V)
+  - Internal Ref (1.1V) : This cannot be used with Vcc/2 common-mode
+  - Extrenal Ref
+- Typical resolution is 10-bit
+- If we go with 3.3V the effective resolution will be:
+  - We will calculate with peak-to-peak output voltage from the mic.
+  - Total steps = 20mV/LSB = 20mV/3.3V/1024 = < 3 bits !!
