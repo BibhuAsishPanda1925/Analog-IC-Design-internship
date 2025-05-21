@@ -11,3 +11,6 @@
 
 - Voice (Pa) = $10^{(60-94)/20} = 19.9\times 10^{-3} Pa$
 - Output (Vpk) = $\sqrt{2}\times V_{rms} = \sqrt{2}\times 19.9\times 10^{-3} Pa \times 10^{-44/20} = 178 \mu Vpk$
+- **$V_{out-pk} = 0.178~ mV$**
+
+**Rth** (from datasheet) = 380 ohms
