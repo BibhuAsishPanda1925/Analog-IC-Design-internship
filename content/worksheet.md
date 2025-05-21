@@ -32,3 +32,10 @@
 - If we go with 3.3V the effective resolution will be:
   - We will calculate with peak-to-peak output voltage from the mic.
   - Total steps = 20mV/LSB = 20mV/3.3V/1024 = < 3 bits !!
+
+## Single-Pole Model of OPA 344
+
+- Specs from the [OP344 Datasheet](https://www.ti.com/lit/ds/symlink/opa344.pdf?ts=1747822666491&ref_url=https%253A%252F%252Fwww.google.com%252F):
+  - Open Loop DC Gain: **120 dB** (From p-5 graph)
+  - Unity Gain Frequency: **1 MHz**
+- Pole = $1 MHz/10^6 = 1~Hz$
