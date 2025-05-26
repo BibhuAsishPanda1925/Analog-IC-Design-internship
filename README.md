@@ -20,7 +20,7 @@ Summer Internship course 2025
   - 🔗 [Follow this guide](content/cad-install-setup-wsl-ubuntu.md) to install **Ubuntu 24.04** on **Windows Subsytem for Linux (WSL)**
 
   
-# Resources
+## Resources
 
 - **TEXT**
   - [**JohnsMartin**] T. C. Carusone, D. A. Johns, and K. A. Martin, Analog Integrated Circuit Design, 2nd ed. Wiley, 2012. [Online](https://www.box.com/s/38df9et7alvxdbu/JohnsMartinCarusone-AnalogICDesign-2ndEd-Wiley-2012.pdf?dl=0)
