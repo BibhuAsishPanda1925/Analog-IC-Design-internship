@@ -17,7 +17,7 @@ Summer Internship course 2025
 - 🔗 [**Course Detail**](content/course-detail.md)
 - 🔗 [**Day-Wise Course Plan**](content/Day-Wise-Plan.md)
 - **CAD and IT Setup** (These need to be setup before 2nd June)
-  - [Follow this guide](content/cad-install-setup-wsl-ubuntu.md) to install **Ubuntu 24.04** on **Windows Subsytem for Linux (WSL)**
+  - 🔗 [Follow this guide](content/cad-install-setup-wsl-ubuntu.md) to install **Ubuntu 24.04** on **Windows Subsytem for Linux (WSL)**
 
   
 # Resources
