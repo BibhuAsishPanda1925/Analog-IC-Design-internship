@@ -25,7 +25,7 @@ This is a guide for installing **Ubuntu 24.04** Linux distribution on WSL2 on Wi
 - **CREATE (ONETIME) USERNAME AND PASSWORD**: When the linux distro is started you'll be asked to create an **username** and **password**. Keep the password safe which you need for all _root_ activities.
   - This account will be your default _user_ for the distribution and automatically sign-in on launch.
   - This account will be considered the Linux administrator, with the ability to run *sudo* (Super User Do) administrative commands.
-- **UPDATE UBUNTU LINUX** 💻 Type `sudo apt update && sudo apt upgrade -y` in the **Linux Shell** to upgrade packages. It's a good idea to do this regularly.
+- **UPDATE UBUNTU LINUX** 💻 Type `sudo apt update && sudo apt upgrade -y` in the **Linux Shell** to upgrade packages. It's a good idea to do this regularly. ⚠️ Make sure you have a good internert connection. This may take a while.
 - **SHUTDOWN WSL**: 💻  `wsl --shutdown` to shutdown and apply updates.
 - **START UBUNTU LINUX** from the Windows Start menu and now you are ready to install the EDA tools.
 
