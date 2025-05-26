@@ -31,7 +31,7 @@
   - Device Modeling
   - Parameter extraction using _ngspice_
 - **Day 7-10** (10-13 June)
-  - Basic analog building blocks.
+  - Basic analog building blocks:
     - Current mirror design: simple, cascode and wide-swing mirrors
     - Small-signal modeling
     - Basic understanding of differential amplifiers.
@@ -40,13 +40,13 @@
 
 ## Week-3
 
-- **Day 11** (16-20 June)
-  - **Implementation of the design**
+- **Day 11-15** (16-20 June)
+  - Implementation of the design
     - All the designs will be done using Skywater 130nm CMOS technology.
     - Schematic capture using open-source _xschem_.
     - Simulation will be done using _ngspice_.
     - Layout and final verification will be done using _magic_ and _netgen_.
-  - **Design, test and characterization of a USB-MIDI microphone.** (As time permits)
+  - Design, test and characterization of a USB-MIDI microphone. (As time permits)
     - System design and simulation using  with ngspice (or. LTSpice).
     - PCB design with Eagle.
     - Reference schematic & PCB will be provided to expedite it.
