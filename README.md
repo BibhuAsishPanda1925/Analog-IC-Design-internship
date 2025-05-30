@@ -7,8 +7,8 @@ Summer Internship course 2025
 - ⏲️ **TIMINGS**:
   - Session-1: 🕙 **10:00am - 1:00pm**
   - Session-2: 🕝 **2:30pm - 5:30pm**
-  - ⚠️ **NOTE** Session-1 on **June 2nd (Mon)** and **4th (Wed)** will in **Room-112**, Academic Building Ground FLoor
-- 🏛️ **VENUE**: Room 656, 4th Floor, New Admin Building
+  - ⚠️ **NOTE: Session-1** on **June 2nd (Mon)** and **4th (Wed)** will in **Room-112**, Academic Building Ground FLoor
+- 🏛️ **VENUE**: Room 656, 5th Floor, New Admin Building
 - 👨‍🏫 **RESOURCE PERSONS**:
   - [Dr. Saroj Rout](https://sroutk.github.io) and [Prof. Prasant Swain](https://silicon.ac.in/wp-content/uploads/2022/04/Prasant-Kumar-Swain.pdf), *ECE*, *Silicon University*
   - [Mrinal Das](https://www.linkedin.com/in/mrinal-das-8314272/), *Head, Sensor IP, Synopsys, Bhubaneswar*
