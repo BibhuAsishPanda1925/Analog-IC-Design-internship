@@ -1,0 +1,17 @@
+## Copy this file into your ~/.bashrc
+## EDA TOOL ENV VARIABLES
+#
+alias cdwork='cd ~/work/xschem'
+export CAD_DIR="$HOME/cad"
+
+if [ -f $CAD_DIR/eda-xschem/bashrc-xschem ]; then
+    . $CAD_DIR/eda-xschem/bashrc-xschem
+else
+    echo "**WARNING** File '$CAD_DIR/eda-xschem/bashrc-xschem' does not exist.."
+fi
+
+if [ -f $CAD_DIR/eda-ngspice/bashrc-ngspice ]; then
+    . $CAD_DIR/eda-ngspice/bashrc-ngspice
+else
+    echo "**WARNING** File '$CAD_DIR/eda-ngspice/bashrc-ngspice' does not exist.."
+fi
