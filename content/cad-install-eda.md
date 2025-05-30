@@ -29,7 +29,7 @@ These are instructions to setup the EDA tools **XSchem** and **ngspice**.
 **Directory Structure** after installation should look like this:
 ```bash
 share
-├── pdk
+└── pdk
 cad
 ├── eda-ngspice
 └── eda-xschem
