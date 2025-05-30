@@ -26,6 +26,19 @@ These are instructions to setup the EDA tools **XSchem** and **ngspice**.
 - `source ~/.bashrc` to source and set all the environment variables of the EDA tools.
 - **You should be all set now!!**
 
+**Directory Structure** after installation should look like this:
+```bash
+share
+├── pdk
+cad
+├── eda-ngspice
+└── eda-xschem
+work
+└── xschem
+.xschem/
+└── simulations
+```
+
 ## Quick Check 
 
 Quick steps to check if the schematic editor **xschem** and **ngspice** are working properly.
