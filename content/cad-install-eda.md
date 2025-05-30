@@ -34,4 +34,9 @@ Quick steps to check if the schematic editor **xschem** and **ngspice** are work
 - 💻 `xschem`  to start _xschem_
 - You should see the xschem window popup with a default schematic of all the SKY130 PDK elements.
 - On the left part of the window, you should see a bunch of links to test circuits.
-- Using the `View` menu and the _arrow keys_, ..
+- 🖱️ Using the `View` menu and the _arrow keys_, to zoom and pan to a test named `test_inv`
+- 🖱️ Select the test circuit and _Push into Schematic_ using the down arrow button from the top menu.
+- 🖱️ Click on the `Netlist` button the top right corner. If it netlisted fine, the button should turn 🟢
+- 🖱️ Select the `Simulate` button and a terminal window should popup with _ngspice_ simulation running. After sucessful simulation, the button should turn 🟢
+- 🖱️ Then select the `Waves -> Tran` and choose the appropriate raw file e.g. `test_inv.raw` select `Open` and the graphs should get populated.
+- If you are able to succesfully comppleted the steps then you are all set for creating schematics and simulating using the SKY130 technology. 
