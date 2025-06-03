@@ -42,9 +42,9 @@ Summer Internship course 2025
   - [Schematic: Sparkfun breakout board](https://cdn.sparkfun.com/assets/7/5/6/e/d/SparkFun_Analog_MEMS_Microphone_Breakout_SPH8878LR5H-1.pdf)
   - [Schematic to Layout Tutorial](docs/13_magic_inverter_sky130.pdf) using Xscheme, ngspice and Magic
 - **VIDEOS/TUTORIALS/QUICKREFS**
-  - [Cheatsheet Linux](docs/cheatsheet_linux.md)
-  - [Cheatsheet ngspice](docs/cheatsheet_ngspice.md)
-  - [Cheatsheet Xschem](docs/cheatsheet_xschem.md)
+  - [Cheatsheet Linux](content/cheatsheet_linux.md)
+  - [Cheatsheet ngspice](content/cheatsheet_ngspice.md)
+  - [Cheatsheet Xschem](content/cheatsheet_xschem.md)
   - [Analog simulation with xschem and the skywater 130nm Process Development Kit (PDK)](https://youtu.be/bYbkz8FXnsQ?si=dy1didcxfnXfHvWH&t=303) Excellent tutorial by xschem creator Stefan Schippers
 - **ONLINE RESOURCES**
   - [SparkFun Analog MEMS Microphone Breakout - SPH8878LR5H-1](https://www.sparkfun.com/sparkfun-analog-mems-microphone-breakout-sph8878lr5h-1.html)
