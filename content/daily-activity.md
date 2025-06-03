@@ -38,7 +38,7 @@ Date: 03 June 2025 (Tue)
 
 **Microphone AFE Analysis**
 
-![Mic Analysis](content/figures/Fig-d2-1-mic-analysis.png)
+![Mic Analysis](figures/Fig-d2-1-mic-analysis.png)
 
 
 
