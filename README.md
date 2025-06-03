@@ -1,7 +1,7 @@
 # Analog Integrated Circuit (IC) Design
 Summer Internship course 2025
 
-## Course Venue & Timings
+##  Course Venue & Timings
 
 - 📆 **DURATION**: June 2nd till June 20th (3 weeks)
 - ⏲️ **TIMINGS**:
