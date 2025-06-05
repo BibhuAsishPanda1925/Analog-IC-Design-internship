@@ -13,6 +13,7 @@ Summer Internship course 2025
   - [**Rout**], Saroj. 2025. IC Engineering I. [[eBook](https://mixignal-press.github.io/ebook-ice1/)]
     - Most of the notes covered during this PS will shared on this eBook.
 - **REFERENCES**
+  - [**Thomas**] R. E. Thomas, A. J. Rosa, and G. J. Toussaint, The Analysis and Design of Linear Circuits. John Wiley & Sons, 2016
   - [**Hodges**] D.A., et.al., "_Analysis and Design of Digital Integrated Circuits_", Tata-McGraw Hill, 3rd Ed
   - [**Weste**] Weste, Neil, and David Harris. "*CMOS VLSI Design: A Circuits and Systems Perspective*". Pearson Education, 2011 
   - [**Baker**] Baker, R. Jacob. "*CMOS: Circuit Design, Layout, and Simulation*". John Wiley & Sons, 2008
