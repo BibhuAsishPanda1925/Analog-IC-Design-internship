@@ -27,6 +27,12 @@ Summer Internship course 2025
   - [Cheatsheet ngspice](content/cheatsheet_ngspice.md)
   - [Cheatsheet Xschem](content/cheatsheet_xschem.md)
   - [Analog simulation with xschem and the skywater 130nm Process Development Kit (PDK)](https://youtu.be/bYbkz8FXnsQ?si=dy1didcxfnXfHvWH&t=303) Excellent tutorial by xschem creator Stefan Schippers
+
+- **GITHUB PAGE EXAMPLES**
+  - [Digital Temp Monitor](https://github.com/silicon-efabless/tt06-silicon-tinytapeout-lm07)
+  - [Bandgap Reference](https://github.com/silicon-vlsi/BGR_DESIGN_SKY130nm)
+  - [CubeSat Summer Internship Student Report](https://github.com/DonaldB2003/SI-2024-CubeSat-SU)
+
 - **ONLINE RESOURCES**
   - [SparkFun Analog MEMS Microphone Breakout - SPH8878LR5H-1](https://www.sparkfun.com/sparkfun-analog-mems-microphone-breakout-sph8878lr5h-1.html)
   - [Using Perplexity Spaces](https://www.perplexity.ai/hub/blog/a-student-s-guide-to-using-perplexity-spaces)
