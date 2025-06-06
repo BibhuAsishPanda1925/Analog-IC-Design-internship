@@ -25,7 +25,12 @@ Date: 06 June 2025 (Fri)
     - 10X -3 dB frequency
   - Measure the peak-to-peak voltage at the output and calculate the gain.
 
- 
+![Op-Amp Model](figures/Fig-d5-2-OpampModel.png)
+
+- Create the _single-pole_ model of the OpAmp as whown in the figure. 
+  - Write the s-domain expresion of the transfer function of the Op-Amp 
+- Substitute the model in the high-pass filter.
+- Repeat the high-pass filter simulation and measuement with the new OpAmp model and note the differences you observe
 
 ## Day-2 
 
