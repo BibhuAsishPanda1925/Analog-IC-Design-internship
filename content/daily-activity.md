@@ -19,6 +19,11 @@ Date: 06 June 2025 (Fri)
   - _measure_ the maximum **gain** and the **frequency** at the gain.
   - _measure_ the -3 dB frequency and verify with your calaculation.
   - Do the above measurement for a gain of 10000 (What is it in dB?)
+- **Transient Simulation**
+  - Provide an input with a sine wave of 100mV at two frequencies:
+    - -3 dB frequency
+    - 10X -3 dB frequency
+  - Measure the peak-to-peak voltage at the output and calculate the gain.
 
  
 
