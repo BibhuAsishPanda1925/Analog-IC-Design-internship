@@ -48,6 +48,8 @@ Date: 06 June 2025 (Fri)
     - -3 dB frequency of the low-pass corner.
   - Measure the peak-to-peak voltage at the output and verify with AC sim results.
 
+**GITHUB PAGE**
+ - Document the above exercises on a github page with the relevant schematic, plots and analysis. 
 
 ## Day-2 
 
