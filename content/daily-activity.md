@@ -32,6 +32,23 @@ Date: 06 June 2025 (Fri)
 - Substitute the model in the high-pass filter.
 - Repeat the high-pass filter simulation and measuement with the new OpAmp model and note the differences you observe
 
+![Signal Chain with supply noise](figures/Fig-d5-3-micbreakout_noise.png)
+
+- Substitute the _singl-pole_ OpAmp model in the above figure.
+- **Operating Point**
+  - Back annotate the operating point to the schematic and verify.
+- **AC simulation**
+  - _plot_ output voltage (in dB) and phase (in deg)
+  - _measure_ the maximum **gain** and the **frequency** at the gain.
+  - _measure_ the -3 dB frequency and verify with your calaculation.
+- **Transient Simulation**
+  - Provide an input with a sine wave of 1mV at three frequencies:
+    - -3 dB frequency of the high-pass corner
+    - Frequency at maximum gain
+    - -3 dB frequency of the low-pass corner.
+  - Measure the peak-to-peak voltage at the output and verify with AC sim results.
+
+
 ## Day-2 
 
 Date: 03 June 2025 (Tue)
