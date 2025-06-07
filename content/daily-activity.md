@@ -51,6 +51,16 @@ Date: 06 June 2025 (Fri)
 **GITHUB PAGE**
  - Document the above exercises on a github page with the relevant schematic, plots and analysis. 
 
+## Day-4
+
+- [VIDEO: Review of Basic Circuit Theory](https://youtu.be/Tmy_4_xQokA)
+- [VIDEO: OpAmp Modeling, Creating symbols in Xschem](https://youtu.be/436GMbK09JI)
+- [PDF-PPT: Review of Circuits](content/circuit-review.pdf)
+- 
+## Day-3 
+
+- [VIDEO: Introduction to Xschem-2](https://youtu.be/yKtu7QzSa78)
+
 ## Day-2 
 
 Date: 03 June 2025 (Tue)
