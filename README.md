@@ -3,7 +3,24 @@ Summer Internship course 2025
 
 ## Daily Activity
 
-- Daily activity content [here](content/daily-activity.md)
+- **Detail daily activity content [here](content/daily-activity.md)**
+- **Video/Problem/etc links from above link**
+  - **Day-6** (09 June)
+    - [PROBLEMS: Electrical Circuits](content/assignment-Electrical-Circuits.pdf)
+    - [PROBLEMS: RC Circuits](content/assignment-RC-Circuit.pdf)
+  - **Day-5** (06 June)
+    - See detail activity page for xschem/ngspice assignments
+  - **Day-4** (05 June)
+    - [VIDEO: Review of Basic Circuit Theory](https://youtu.be/Tmy_4_xQokA)
+    - [VIDEO: OpAmp Modeling, Creating symbols in Xschem](https://youtu.be/436GMbK09JI)
+    - [PDF-PPT: Review of Circuits](content/circuit-review.pdf)
+  - **Day-3** (04 June)
+    - [VIDEO: Introduction to Xschem-2](https://youtu.be/yKtu7QzSa78)
+  - **Day-2** (03 June)
+    - [Video](https://youtu.be/iuqNuaLUez4): Introduction to Xschem
+  - **Day-1** (02 June)
+    - [Video](https://youtu.be/baAFZwcFY-M): Introduction
+ 
 
 ## Resources
 

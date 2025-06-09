@@ -1,5 +1,14 @@
 # SI-2025 Analog IC Daily Activity
 
+## Day-6
+
+Date: 09 June 2025 (Mon)
+
+**ASSIGNMENT**
+
+- [PROBLEMS: Electrical Circuits](content/assignment-Electrical-Circuits.pdf)
+- [PROBLEMS: RC Circuits](content/assignment-RC-Circuit.pdf)
+
 ## Day-5 
 
 Date: 06 June 2025 (Fri)
