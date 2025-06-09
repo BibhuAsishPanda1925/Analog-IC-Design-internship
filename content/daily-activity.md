@@ -64,7 +64,7 @@ Date: 06 June 2025 (Fri)
 
 - [VIDEO: Review of Basic Circuit Theory](https://youtu.be/Tmy_4_xQokA)
 - [VIDEO: OpAmp Modeling, Creating symbols in Xschem](https://youtu.be/436GMbK09JI)
-- [PDF-PPT: Review of Circuits](content/circuit-review.pdf)
+- [PDF-PPT: Review of Circuits](circuit-review.pdf)
 - 
 ## Day-3 
 
