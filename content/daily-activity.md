@@ -6,8 +6,8 @@ Date: 09 June 2025 (Mon)
 
 **ASSIGNMENT**
 
-- [PROBLEMS: Electrical Circuits](content/assignment-Electrical-Circuits.pdf)
-- [PROBLEMS: RC Circuits](content/assignment-RC-Circuit.pdf)
+- [PROBLEMS: Electrical Circuits](assignment-Electrical-Circuits.pdf)
+- [PROBLEMS: RC Circuits](assignment-RC-Circuit.pdf)
 
 ## Day-5 
 
