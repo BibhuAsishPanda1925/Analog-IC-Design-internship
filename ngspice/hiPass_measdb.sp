@@ -19,7 +19,8 @@ Vscm	vcm	0	0.5
   meas ac gain_db MAX vdb(n1) FROM=1 TO=10e6
   LET f3db = gain_db - 3
   print f3db
-  MEAS AC fzero WHEN vdb(n1)=f3db RISE=1
+  MEAS AC fzero WHEN vdb(n1)=f3db 
+  **RISE=1
   
 .ENDC 
 

@@ -1,32 +1,30 @@
-Title: Measuring Rise time, fall time and delay in a circuit
+Title: transient experiement: rise, fall, delat, period, etc.
 
-.PARAM vdd_val=5
-.CSPARAM cs_vdd_val=vdd_val
-
-** RC network
+** RC Network 
 R1	vin	vout	1k
-C1	vout 	GND 	1p
+C1	vout	GND	1p
 
-** Stimuli
-** PULSE(V1 V2 TD TR TF PW PER)
-Vsin	vin	GND	0  pulse(0 vdd_val 1n 1p 1p 10n 20n)
+**Stimuli
+Vsin	vin	GND	0 PULSE(0 5 1n 1p 1p 10n 20n) 
 
-.MEAS TRAN rise_time TRIG v(vout) VAL='0.1*vdd_val' RISE=1 TARG v(vout) VAL='0.9*vdd_val' RISE=1
-.MEAS TRAN t_rise_in WHEN v(vin)='0.5*vdd_val' RISE=1
-.MEAS TRAN t_rise_out WHEN v(vout)='0.5*vdd_val' RISE=1
-.MEAS TRAN delay PARAM='t_rise_out - t_rise_in'
+
+** Rise/Fall 10-90%
+.MEASURE TRAN tr1090 TRIG v(vout) VAL=0.5 RISE=1 TARG v(vout) VAL=4.5 RISE=1 
+.MEASURE TRAN tf9010 TRIG v(vout) VAL=4.5 FALL=1 TARG v(vout) VAL=0.5 FALL=1 
+** Rise/Fall 20-80%
+.MEASURE TRAN tr2080 TRIG v(vout) VAL=1.0 RISE=1 TARG v(vout) VAL=4.0 RISE=1 
+.MEASURE TRAN tf8020 TRIG v(vout) VAL=4.0 FALL=1 TARG v(vout) VAL=1.0 FALL=1 
+** Delay Rise Fall
+.MEASURE TRAN tdrise TRIG v(vin)  VAL=2.5 RISE=1 TARG v(vout) VAL=2.5 RISE=1 
+.MEASURE TRAN tdfall TRIG v(vin)  VAL=2.5 FALL=1 TARG v(vout) VAL=2.5 FALL=1 
+** Pulse width/ Period
+.MEASURE TRAN PWidth TRIG v(vout)  VAL=2.5 RISE=1 TARG v(vout) VAL=2.5 FALL=1 
+.MEASURE TRAN Period TRIG v(vout)  VAL=2.5 RISE=1 TARG v(vout) VAL=2.5 RISE=2 
 
 
 .CONTROL
-  save all
   OP
-  TRAN 10p 40n 
-  *
-  LET vout10 = 0.1*cs_vdd_val
-  LET vout90 = 0.9*cs_vdd_val
-  MEAS TRAN fall_time TRIG v(vout) VAL=vout90 FALL=1 TARG v(vout) VAL=vout10 FALL=1
-   
-.ENDC 
+  TRAN 10p 40n
+.ENDC
 
 .GLOBAL GND
-.END
