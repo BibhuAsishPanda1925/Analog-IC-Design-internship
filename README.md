@@ -50,6 +50,20 @@ Summer Internship course 2025
   - [**Hodges**] D.A., et.al., "_Analysis and Design of Digital Integrated Circuits_", Tata-McGraw Hill, 3rd Ed
   - [**Weste**] Weste, Neil, and David Harris. "*CMOS VLSI Design: A Circuits and Systems Perspective*". Pearson Education, 2011 
   - [**Baker**] Baker, R. Jacob. "*CMOS: Circuit Design, Layout, and Simulation*". John Wiley & Sons, 2008
+
+- **NOTES**
+  - [Basic Circuit Theory](content/2019-0423-notes-circuitTheory.pdf)
+  - [Dynamic Circuits and IC devices](content/2019-0424-notes-dynamicCkts-ICdevices.pdf)
+  - [Small-Sginal Modeling](content/2019-0425-notes-SmallSignal.pdf)
+  - [Current Mirrors](content/2019-0426-notes-CurrentMirrors.pdf)
+  - [Cascode Current Mirror](content/2019-0427-notes-CascodeCurrentMirror.pdf)
+  - [Differential Amplifier](content/2019-0430-notes-DiffAmp.pdf)
+  - [Small-signal modeling of Diff-Amp](content/2019-0501-notes-DiffAmpSmallSig.pdf)
+  - [Frequency Analysis](content/2019-0523-Notes-FreqAnalysis-Intro.pdf)
+  - [Frequency Response of MOS circuits](content/2019-0523-Notes-FreqResponseMOSckts.pdf)
+  - [Laplace Transform](content/2019-0523-Notes-Laplace.pdf)
+  - [Feedback analysis](content/2019-0524-Notes-Feedback.pdf)
+
 - **USEFUL DOCS**
   - [Skywater PDK and DRC Manual](docs/skywater-pdk-readthedocs-io-en-main.pdf)
   - [Datasheet: MEMS Microphone](https://cdn.sparkfun.com/assets/0/5/8/b/1/SPH8878LR5H-1_Lovato_DS.pdf)
