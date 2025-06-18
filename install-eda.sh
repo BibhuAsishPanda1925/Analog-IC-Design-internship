@@ -80,3 +80,25 @@ if [ ! -d "$CAD_DIR_NAME/eda-ngspice" ]; then
 else
     echo "Directory '$CAD_DIR_NAME/eda-ngspice' already exists."
 fi
+
+## Magic installation
+#
+if [ ! -d "$CAD_DIR_NAME/eda-magic" ]; then
+    echo "Directory '$CAD_DIR_NAME/eda-magic' does not exist." 
+    echo "Cloning magic in '$CAD_DIR_NAME'"
+    cd "$CAD_DIR_NAME"
+    git clone https://github.com/silicon-vlsi-org/eda-magic 
+else
+    echo "Directory '$CAD_DIR_NAME/eda-magic' already exists."
+fi
+
+## Netgen installation
+#
+if [ ! -d "$CAD_DIR_NAME/eda-netgen" ]; then
+    echo "Directory '$CAD_DIR_NAME/eda-netgen' does not exist." 
+    echo "Cloning magic in '$CAD_DIR_NAME'"
+    cd "$CAD_DIR_NAME"
+    git clone https://github.com/silicon-vlsi-org/eda-netgen
+else
+    echo "Directory '$CAD_DIR_NAME/eda-netgen' already exists."
+fi

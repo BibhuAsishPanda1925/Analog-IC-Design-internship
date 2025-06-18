@@ -15,3 +15,17 @@ if [ -f $CAD_DIR/eda-ngspice/bashrc-ngspice ]; then
 else
     echo "**WARNING** File '$CAD_DIR/eda-ngspice/bashrc-ngspice' does not exist.."
 fi
+
+if [ -f $CAD_DIR/eda-magic/bashrc-magic ]; then
+    . $CAD_DIR/eda-magic/bashrc-magic
+else
+    echo "**WARNING** File '$CAD_DIR/eda-magic/bashrc-magic' does not exist.."
+fi
+
+
+if [ -f $CAD_DIR/eda-netgen/bashrc-netgen ]; then
+    . $CAD_DIR/eda-netgen/bashrc-netgen
+else
+    echo "**WARNING** File '$CAD_DIR/eda-netgen/bashrc-netgen' does not exist.."
+fi
+

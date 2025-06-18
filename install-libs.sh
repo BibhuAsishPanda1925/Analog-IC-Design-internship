@@ -3,7 +3,7 @@
 ##Installing reqd packages 
 
 req_pkgarr=(\
-	libxpm4 libxaw7 libtcl8.6 libtk8.6 libgomp1 \
+	libxpm4 libxaw7 libtcl8.6 libtk8.6 libgomp1 tcl tk libglu1-mesa \
         xterm tree \
       )
 
